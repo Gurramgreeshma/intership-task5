@@ -1,0 +1,56 @@
+/* App Container */
+.App {
+  text-align: center;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Styling */
+.App-header {
+  background-color: #1e293b;
+  padding: 40px 20px;
+  border-radius: 12px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.App-header h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Link Styling */
+.App-link {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+}
+
+/* Optional: Table Styling (if you're using in App.css) */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+th {
+  background-color: #334155;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f1f5f9;
+}
